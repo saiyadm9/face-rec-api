@@ -16,10 +16,10 @@ const image = require('./controllers/image');
 const db = knex({
   client: 'pg',
   connection: {
-    connectionString : process.env.DATABASE_URL,
-    ssl: {
-			rejectUnauthorized: false
-		}
+    host : 'b0mha1jfmdk4ly7yjrct-postgresql.services.clever-cloud.com',
+    user : 'upaq3zwogz5caohvuk4n',
+    password : 'S6BE05yneMc2raEUIpOh',
+    database : 'b0mha1jfmdk4ly7yjrct'
   }
 });
 
